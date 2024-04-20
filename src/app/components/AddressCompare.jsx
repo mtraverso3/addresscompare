@@ -42,7 +42,8 @@ export default function AddressCompare() {
                         type="text"
                         value={location1}
                         onChange={(event) => setLocation1(event.target.value)}
-                        className="p-2 pl-2 text-sm text-gray-700 bg-orange-200 rounded-md border border-orange-300 align-left"
+                        className="p-2 pl-2 text-sm text-gray-700 bg-orange-200 rounded-md border border-orange-300 align-left placeholder-orange-950 placeholder-opacity-45 placeholder:italic"
+                        placeholder={"magic lane apartment in hoboken, nj"}
                     />
                 </label>
                 <label className="flex flex-col gap-2 m-1">
@@ -51,7 +52,8 @@ export default function AddressCompare() {
                         type="text"
                         value={location2}
                         onChange={(event) => setLocation2(event.target.value)}
-                        className="p-2 pl-2 text-sm text-gray-700 bg-orange-200 rounded-md border border-orange-300 align-left"
+                        className="p-2 pl-2 text-sm text-gray-700 bg-orange-200 rounded-md border border-orange-300 align-left placeholder-orange-950 placeholder-opacity-45 placeholder:italic"
+                        placeholder={"1 magic ln, hoboken, nj"}
                     />
                 </label>
                 <button
