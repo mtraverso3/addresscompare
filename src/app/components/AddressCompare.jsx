@@ -33,7 +33,7 @@ export default function AddressCompare() {
     };
 
     return (
-        <div className="max-w-md p-4 bg-white rounded shadow-md w-max-500 w-4/5">
+        <div className="max-w-md p-4 bg-white rounded-md shadow-md w-max-500 w-4/5 dark:bg-gray-800">
             <h2 className="text-lg font-bold mb-4">Compare Addresses</h2>
             <form onSubmit={handleSubmit} className="flex flex-col gap-4">
                 <label className="flex flex-col gap-2 m-1">
